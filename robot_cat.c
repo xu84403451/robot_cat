@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
 	char	catbuf[BUFSIZE];
 	int	nread, i;
 	char	*p;
-	char	*usrname = "小白";
+	char	*usrname = "小白呵呵";
 
 	if((fp = fopen("robot_cat.dat", "r")) == NULL){
 		fprintf(stderr ,"open robot_cat.dat error: %s\n", strerror(errno));
